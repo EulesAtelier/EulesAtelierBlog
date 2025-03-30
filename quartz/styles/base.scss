@@ -42,7 +42,7 @@ ol,
 ul,
 .katex,
 .math {
-  color: var(--gray);
+  color: var(--darkgray);
   fill: var(--darkgray);
   hyphens: auto;
 }
@@ -63,6 +63,15 @@ ul,
 .math {
   &.math-display {
     text-align: center;
+  }
+}
+
+article>mjx-container.MathJax {
+  display: flex;
+
+  >svg {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

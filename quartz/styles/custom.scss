@@ -132,7 +132,8 @@
     --flexoki-magenta-950: #24131D;
 }
 
-.theme-dark {
+body,
+section {
     --color-bg-primary: var(--flexoki-black);
     --color-bg-primary-rgb: var(--flexoki-black-rgb);
     --color-inverted-rgb: var(--flexoki-paper-rgb);

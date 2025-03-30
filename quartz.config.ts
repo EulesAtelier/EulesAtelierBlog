@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FFFCF0",
+          lightgray: "#878580",
+          gray: "#403E3C",
+          darkgray: "#282726",
+          dark: "#1C1B1A",
+          secondary: "#3D4C07",
+          tertiary: "#5E409D",
+          highlight: "rgba(151, 6, 6, 0.15)",
+          textHighlight: "#87285E",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#cc0000",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#rgb(0, 0, 0)",//background
+          lightgray: "#rgb(40, 39, 38)",//borders
+          gray: "#rgb(209, 77, 65)",//graph links
+          darkgray: "#rgb(135, 133, 128)",//body text
+          dark: "#rgb(209, 77, 65)",//header and icons
+          secondary: "#rgb(135, 154, 57)",//link + graph node
+          tertiary: "#rgb(58, 169, 159)",//hover + visited graph node
+          highlight: "rgb(139, 126, 200)",//highlights
+          textHighlight: "#rgb(206, 93, 151)",//highlighted text within md
         },
       },
     },

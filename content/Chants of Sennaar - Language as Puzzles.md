@@ -2,7 +2,7 @@
 - - -
 #puzzle #game #critique #linguistics
 
-# [![Chants of Sennaar on Steam](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/capsule_616x353.jpg?t=1755089409)
+# ![Chants of Sennaar on Steam](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/capsule_616x353.jpg?t=1755089409)
 
 # Introduction
 
@@ -12,9 +12,9 @@ Overall, Chants of Sennaar is an enjoyable game, and I would recommend it for pe
 
 # Gameplay
 
-The main gameplay loop of Chants of Sennaar is based around translating the local languages in order to find the exit and ascend higher into the tower. For example, you have a door and a lever with a sign next to it with two statements, with the statement only sharing one glyph. As the player, you can use your notebook interface to track these glyphs automatically when you see them, and you can type in what you think they are. 
+The main gameplay loop of Chants of Sennaar is based around translating the local languages in order to find the exit and ascend higher into the tower. For example, you have a door and a lever with a sign next to it with two statements, with the statement only sharing one glyph. As the player, you can use your notebook interface to track these glyphs automatically when you see them, and you can type in what you think they are.
 
-With this first puzzle, it’s obvious that the second symbol means “door” and the first two are  “open” and “close”, but you as the player have to write down that meaning and use the puzzle to confirm it. This is the main loop of the game, finding a statement, deducing its meaning, and testing that hypothesis in the world. 
+With this first puzzle, it’s obvious that the second symbol means “door” and the first two are  “open” and “close”, but you as the player have to write down that meaning and use the puzzle to confirm it. This is the main loop of the game, finding a statement, deducing its meaning, and testing that hypothesis in the world.
 
 Sometimes this loop is broken up by separate mechanics, which can be either annoying in difficulty such as the stealth sections, or annoying in that they are sliding block puzzles. They are just another way to dress up getting a key for a door, and feel off in a game that is largely based on knowledge-based language puzzles.
 
@@ -32,10 +32,11 @@ The visual and sound design are very good, the game is simply a treat to look at
 
 # Story
 
-From a story perspective, it is very simple in its message of language bringing people together and everyone sharing meaning from their world. The shape at top of the tower, what the locals call “God”, “Duty”, “Beauty”, etc… being all related through their glyphs, connecting the languages together, is very cool and a very good piece of visual storytelling. However it is a little too simple and trite, it very much feels like the actual plot was grafted on near the end of development with the theme of “togetherness” as its connective tissue.
-–edit this to explain story more and include images
+From a story perspective, it is very simple. It focuses on the theme of language bringing people together and everyone sharing meaning from their world. For example, at the end of the game there is an abstract shape at the top of the tower. It twists and turns to reveal that by looking at it a certain way, it becomes a glyph in each language. It is both “God”, and “Duty”, and “Beauty”, etc… This connects the languages together, and is a very cool and a very good piece of visual storytelling. However it just sort of happens at the end of the game, it very much feels like the actual plot was grafted on near the end of development with the theme of “togetherness” as its connective tissue.
 
-The little moments do stand out, I really like the moment where you play hide and seek with a little girl and learning some of the stealth mechanics, and I like the late game puzzles where you translate between languages, causing people to travel between the tower again. You get a lot of the little tableaus, like when the gate guards, an earlier road block, open the gate up because they learn that the Devotee’s play music like the Bards. These make the world feel alive and reactive.
+The actual plot that happens to you as the player is you ascending the tower. This is mostly expresed through little moments, which do stand out. You run into a monster and need to escape to a higher level, later you need to wait for the cafeteria to open once you can read the clocks. I really like the moment where you play hide and seek with a little girl and learning some of the stealth mechanics, and I like the late game puzzles where you translate between languages, causing people to travel between the tower again. You get a lot of the little tableaus, like when the gate guards, an earlier road block, open the gate up because they learn that the Devotee’s play music like the Bards. These make the world feel alive and reactive.
+
+There are puzzling elements of the story, for example in the third layer of the tower, the Bards have an underclass that they oppress and literally call "Ugly". As in, that is what the game calls these people. You find a little revolutionary hideout where this underclass plans to revolt, but instead of doing anything, a later puzzle just has you tell them they can leave and they just go. It's a very odd subplot in a game which is about learning to connect with others, especially since the game world is fairly static, and the underclass is still there if you complete that puzzle.
 
 # Critique
 
@@ -49,9 +50,9 @@ I think a reason this disappoints me is that the game’s 3rd language is very e
 
 Beyond linguistics, another major criticism I have of the game is that it's too easy to lock in your translation, and the game keeps track of everything in a way that makes it easy to guess. I think that increasing the possibilities per page in the notebook would make it more rewarding to figure out. [Mark Brown of Game Makers Toolkit](https://www.youtube.com/watch?v=PeDNuITuJPA) points out that this system is similar to Return of the Obra Dinn, I agree with him that a version of the game entirely based on your deductions and intuitions would be interesting. Unlike Return of the Obra Dinn, which is a mystery game where you can only lock in your guess if you have chosen the right person, their rank, and cause of death, Chants of Sennaar’s puzzles are a drag and drop matching glyph to picture of it’s meaning. In Return of the Obra Dinn, every person has 3 pieces of information you need. The notebook mechanic which locks your answers in is similar, but because a world only has one meaning (sometimes two but it’s never particularly meaningful), the difficulty is lowered.
 
-[![Chants of Sennaar Walkthrough - The Gardens - Neoseeker](https://cdn.staticneo.com/ew/thumb/7/76/ChantsofSennaar_Gardens14.jpg/730px-ChantsofSennaar_Gardens14.jpg)
+![Chants of Sennaar Walkthrough - The Gardens - Neoseeker](https://cdn.staticneo.com/ew/thumb/7/76/ChantsofSennaar_Gardens14.jpg/730px-ChantsofSennaar_Gardens14.jpg)
 
-[![Return Of The Obra Dinn As An Introduction To Games – Waltorious Writes  About Games](https://waltoriouswritesaboutgames.com/wp-content/uploads/2024/01/20231225175948_1.jpg)
+![Return Of The Obra Dinn As An Introduction To Games – Waltorious Writes  About Games](https://waltoriouswritesaboutgames.com/wp-content/uploads/2024/01/20231225175948_1.jpg)
 Another criticism I have is the world design. The sewers in the 3rd layer are too complicated to traverse and too confusing and identical without a community-made map. The final area feels rushed and easy. Using computer puzzles to match every language is fun, I think that the idea of a Rosetta stone puzzle would work very well, but the way it is, it is just a match three game, with very little actual thinking.
 
 Unfortunately, the game is very text-based. This is not a *problem* with the game, it is an unfortunately limitation of gameplay, but it means that the game cannot model real-life linguistics. Speech and the way the spoken word works is missing from the game, and given its themes of misunderstanding, language barriers, etc… I believe that it’s a shame that the game lacks voice acting here. The abstractly cartoonish babbling of the people of the towers is meaningless and detracts from the overall theme of understanding through language, because there is no way to understand them.

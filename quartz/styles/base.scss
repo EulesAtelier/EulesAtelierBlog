@@ -11,8 +11,7 @@ html {
   width: 100vw;
 }
 
-body,
-section {
+body {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--light);
@@ -41,7 +40,9 @@ li,
 ol,
 ul,
 .katex,
-.math {
+.math,
+.typst-doc,
+.typst-doc * {
   color: var(--darkgray);
   fill: var(--darkgray);
   hyphens: auto;
@@ -55,7 +56,9 @@ li,
 ol,
 ul,
 .katex,
-.math {
+.math,
+.typst-doc,
+.typst-doc * {
   overflow-wrap: anywhere;
   /* tr and td removed from list of selectors for overflow-wrap, allowing them to use default 'normal' property value */
 }
@@ -86,7 +89,7 @@ a {
   color: var(--secondary);
 
   &:hover {
-    color: var(--tertiary) !important;
+    color: var(--tertiary);
   }
 
   &.internal {
@@ -95,6 +98,15 @@ a {
     padding: 0 0.1rem;
     border-radius: 5px;
     line-height: 1.4rem;
+
+    &.broken {
+      color: var(--secondary);
+      opacity: 0.5;
+      transition: opacity 0.2s ease;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
 
     &:has(> img) {
       background-color: transparent;
@@ -119,10 +131,17 @@ a {
   }
 }
 
+.flex-component {
+  display: flex;
+}
+
 .desktop-only {
   display: initial;
 
   @media all and ($mobile) {
+    &.flex-component {
+      display: none;
+    }
     display: none;
   }
 }
@@ -131,6 +150,9 @@ a {
   display: none;
 
   @media all and ($mobile) {
+    &.flex-component {
+      display: flex;
+    }
     display: initial;
   }
 }
@@ -243,6 +265,7 @@ a {
 
         &>* {
           flex: 1;
+          max-height: 24rem;
         }
 
         &>.toc {
@@ -573,8 +596,8 @@ video {
 }
 
 div:has(> .overflow) {
-  display: flex;
   max-height: 100%;
+  overflow-y: hidden;
 }
 
 ul.overflow,
@@ -605,6 +628,7 @@ ol.overflow {
 }
 
 .katex-display {
+  display: initial;
   overflow-x: auto;
   overflow-y: hidden;
 }
